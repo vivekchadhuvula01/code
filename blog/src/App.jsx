@@ -4,6 +4,7 @@ import About from "./pages/About";
 import ArticleListPage from "./pages/ArticleListPage";
 import ArticlePage from "./pages/ArticlePage";
 import Navbar from './components/Navbar';
+import NotFoundPage from './pages/NotFoundPage';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
             <Route path='/' element={<Homepage />} />
             <Route path='/articles' element={<ArticleListPage />} />
             <Route path='/articles/:articleId' element={<ArticlePage />} />
+            <Route path='*' element={<NotFoundPage />} />
           </Routes>
 
         </div>
