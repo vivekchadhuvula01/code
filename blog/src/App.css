@@ -36,3 +36,16 @@ a {
 
   }
 }
+
+.article-list {
+  columns: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  margin: 5px;
+
+  h3 {
+    margin-bottom: 0.5rem;
+  }
+}
